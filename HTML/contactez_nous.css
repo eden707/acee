@@ -1,0 +1,199 @@
+#logo-case {
+  display : flex;   
+  max-width: 100%;
+   min-width: 40%;
+  text-align: center;
+  size-adjust: auto;
+  
+  
+  }
+  
+  
+  #droite {
+      display : flex;   
+  max-width: 100%;
+   min-width: 40%;
+  text-align: center;
+  size-adjust: auto;
+  }
+  
+  
+  
+  .nav {
+    
+    width: 1170px;
+    height: 85px;
+    text-align: right;
+    color: aliceblue;
+    background-color: #ffffff;
+    size-adjust: auto;
+   
+  
+  }
+  
+  ul {
+    margin: 35px;
+    padding: 0 20px;
+    text-align: right;
+  }
+  
+  li {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  li:hover {
+    color: #ef7de7;
+    cursor: pointer;
+    scale: 1.2;
+  }
+  
+    
+
+  #blocc {  
+     
+    max-width: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+      height: 100%;
+      width: 45%;
+      max-height: 100%;
+      min-height: 40%;
+      border: #ef7de7 solid 2px;
+      text-align: center;
+
+  } 
+
+  #nom, #message, #prenom,#age, #email, #telephone, #ville, #code_postale {
+    max-width: 100%;
+    min-width: 60%;
+    margin: 20px;
+    padding: 5px;
+   width: 75%;
+   text-align: left;
+
+  }
+
+
+
+ .success {
+    color: #ef7de7  ;
+    max-width: 100%;
+    width : 80%;
+    background-color: white;
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: anime 1s ease-in-out;
+
+ }
+
+ @keyframes anime {
+    from {
+        transform: translateY(-20px);
+    }
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer */
+
+ .footer {
+    display: flex;
+    
+    background-color: #080808;
+    height: 400px;
+    max-width: 100%;
+    width: 100%;
+    
+    margin: auto;
+    
+}
+
+#f1 {
+ 
+  justify-content: left;
+  align-items: left;
+  height: 100%;
+  width: 20%;
+  margin: 30px;
+ 
+  text-align: left;
+  color: #ffffff;
+}
+
+#f2 {
+  gap: 60px;
+  justify-content: left;
+  align-items: left;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+#f4 {
+  gap: 60px;
+  justify-content: right;
+  align-items: right;
+  padding: 20PX;
+  max-width: 100%;
+  height: 60%;
+  width: 30%;
+  margin: 20px;
+ border: #ef7de7 solid 2px;
+ 
+
+  text-align: center;
+  color: #ffffff;
+}
+
+
+  
+
+ /* Textes */
+  h3 {
+    color: #ef7de7;
+  }
+
+  h1 {
+ 
+    size: 30px;
+    text-align: center;
+    color:#ffffff;
+    background-color: #ef7de7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 50px;
+  }

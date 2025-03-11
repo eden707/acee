@@ -1,0 +1,470 @@
+
+/* Les styles en dessous concernent la section logo, lien page */
+
+#logo-case {
+display : flex;   
+max-width: 100%;
+ min-width: 40%;
+text-align: center;
+size-adjust: auto;
+
+
+}
+
+
+#droite {
+    display : flex;   
+max-width: 100%;
+ min-width: 40%;
+text-align: center;
+size-adjust: auto;
+}
+
+
+
+.nav {
+  
+  width: 1170px;
+  height: 85px;
+  text-align: right;
+  color: aliceblue;
+  background-color: #ffffff;
+  size-adjust: auto;
+ 
+
+}
+
+ul {
+  margin: 35px;
+  padding: 0 20px;
+  text-align: right;
+}
+
+li {
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 10px;
+}
+
+li:hover {
+  color: #ef7de7;
+  cursor: pointer;
+  scale: 1.2;
+}
+
+
+#block {
+  display : flex;  
+  max-width: 100%;
+  min-width: 90%; 
+  height: 600px;
+  width: 1490px;
+  margin : auto;
+  background-color: rgb(0, 0, 0);
+ 
+ 
+}
+
+
+#myVideo{
+   max-width: 100%;
+    width: 1490px;
+    height: 100%;
+   
+  
+}
+
+
+  
+
+
+/* Lévénements */
+#flex {
+  display : flex;   
+  text-align: center;
+  justify-content: auto;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  max-width: 100%;
+ min-width: 40%;
+ max-block-size: 100%;
+ min-block-size: 40%;
+ size-adjust: auto;
+ font-family: 'Oswald', sans-serif;
+  }
+
+
+ 
+
+  
+#boxa {
+
+  height: 300px;
+  width: 30%;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  background-image: url(img/bourse1.png);
+ 
+  background-size: cover;
+  background-position: center;
+  color: #ef7de7;
+  
+
+ 
+}
+
+
+
+#boxb {   
+  height: 300px;
+  width: 30%;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  background-image: url(img/dist.png);
+ 
+  background-size: cover;
+  background-position: center;
+  color: #ef7de7;
+  
+}
+
+
+#boxc {  
+  height: 300px;
+  width: 30%;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  
+}
+
+BUTTON {
+  color: #ef7de7;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: #ef7de7 solid 2px;
+  background-color: black;
+  cursor : pointer;
+  scale: 1.2;
+}
+
+
+#box:hover {
+  scale: 1.5;
+  cursor : pointer;
+}
+
+#box {
+  display : flex;   
+  height: 300px;
+  width: 30%;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  
+}
+
+
+body {
+  max-width: 100%;
+  
+    margin: 0px;
+    padding: 0px;
+   
+  
+}
+
+
+
+/* Activités */
+.activités {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+  min-width: 40%;
+ 
+
+ 
+}
+
+#acta:hover {
+  scale: 1.2;
+  cursor : pointer;
+}
+#acta {
+  max-width: 120%;
+ 
+  height: 30%;
+  width: 30%;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  background-image: url(img/standprojet.png);
+  
+  background-size: cover;
+  background-position: center;
+}
+
+
+#actb:hover {
+  scale: 1.2;
+  cursor : pointer;
+}
+#actb {
+  max-width: 100%;
+ 
+  height: 30%;
+  width: 33%;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  background-image: url(img/atelierbrico.png);
+
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#actc:hover {
+  scale: 1.2;
+  cursor : pointer;
+}
+#actc {
+  max-width: 100%;
+  height: 30%;
+  width: 33%;
+  margin: auto;
+  border: #ef7de7 solid 2px;
+  background-image: url(img/admin.png);
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* Nos partenaires */
+
+.nos_partenaires {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+  width: 100%;
+  min-width: 100%;
+  margin: auto;
+
+}
+
+#parta:hover {
+  cursor : pointer;
+  scale: 1.1;
+  
+}
+
+#parta:active {
+  box-shadow: 0 0 20px rgba(0, 0, 1, 2);
+
+  transform: scale(1.05);
+  
+
+}
+
+#parta {
+  height: 80%;
+  width: 80%;
+  margin: 20px;
+  border: #ef7de7 solid 2px;
+  
+  
+}
+
+#partb:hover {
+  cursor : pointer;
+  scale: 1.1;
+}
+
+#partb:active {
+  box-shadow: 0 0 20px rgba(0, 0, 1, 2);
+  transform: scale(1.05);
+
+
+}
+
+#partb {
+  height: 80%;
+  width: 80%;
+  margin: 20px;
+  border: #ef7de7 solid 2px;
+  
+   
+  
+}
+ 
+  
+  
+
+
+#partc:hover {
+  cursor : pointer;
+  scale: 1.1;
+ 
+}
+
+
+#partc:active {
+  box-shadow: 0 0 20px rgba(0, 0, 1, 2);
+  transform: scale(1.05);
+
+
+}
+#partc {
+  height: 80%;
+  width: 80%;
+  margin: 20px;
+  border: #ef7de7 solid 2px;
+  
+}
+
+
+
+#partd:hover {
+  cursor : pointer;
+  scale: 1.1;
+
+} 
+
+#partd:active {
+  box-shadow: 0 0 20px rgba(0, 0, 1, 2);
+  transform: scale(1.05);
+
+
+}
+
+#partd {
+  height: 80%;
+  width: 80%;
+  margin: 20px;
+  border: #ef7de7 solid 2px;
+  
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #080808;
+    height: 400px;
+    max-width: 100%;
+    width: 100%;
+    
+    
+    
+}
+
+#f1 {
+ 
+  justify-content: left;
+  align-items: left;
+  height: 100%;
+  width: 20%;
+  margin: 10px;
+ 
+  text-align: left;
+  color: #ffffff;
+}
+
+#f2 {
+  gap: 60px;
+  justify-content: left;
+  align-items: left;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+#f4 {
+  gap: 60px;
+  justify-content: right;
+  align-items: right;
+  padding: 20PX;
+  max-width: 100%;
+  height: 60%;
+  width: 30%;
+  margin: 20px;
+ border: #ef7de7 solid 2px;
+ 
+
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+
+/* Textes */
+
+h1 {
+  size: 20px;
+    text-align: center;
+    color:#ef7de7;
+   
+    text-transform: uppercase;
+    margin: 7%;
+  
+
+}
+
+h2 {
+  size: 20px;
+    text-align: center;
+    color:#ef7de7;
+   
+    text-transform: uppercase;
+    margin: 7%;
+  
+
+}
+
+h3 {
+  size: 20px;
+   
+    color:#ef7de7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+ 
+}
+
+h4 {
+  size: 20px;
+   
+    color:#ef7de7;
+  
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+ 
+}
+
+
+
+
+ 
+    
+
+
+
+ 
+
+
+ 
