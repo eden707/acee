@@ -4,7 +4,7 @@
 #logo-case {
 display : flex;   
 max-width: 100%;
- min-width: 40%;
+ min-width: 50%;
 text-align: center;
 size-adjust: auto;
 
@@ -15,7 +15,7 @@ size-adjust: auto;
 #droite {
     display : flex;   
 max-width: 100%;
- min-width: 40%;
+ min-width: 50%;
 text-align: center;
 size-adjust: auto;
 }
